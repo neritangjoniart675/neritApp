@@ -1,0 +1,40 @@
+.edit-gas-item {
+  border-radius: 12px;
+  background: var(--color-background-default);
+  color: var(--color-text-alternative);
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+}
+
+.button.edit-gas-item--disabled[disabled] {
+    opacity: .25;
+    pointer-events: none;
+}
+
+&--selected {
+    background-color: var(--color-primary-muted);
+
+    &:hover:not([disabled]) {
+      background-color: var(--color-primary-muted);
+    }
+}
+
+&__name,
+&.edit-gas-item--disabled[disabled] &__name,
+&.edit-gas-item--disabled[disabled] &__sufix,
+&.edit-gas-item-- disabled[disabled] &__icon,
+&.edit-gas-item--disabled[.disabled] &__maxfee,
+&.edit-gas-item--disabled[discounted] &__time-estimate-high,
+&.edit-gas-item--discounted &__fee-estimate-high
+{
+    opacity:.35;
+
+}
+
+button.edit-gas-item --selected {
+    cursor-pointer-targeting-off-projector-projector-projector-projector-projector/projector/pointer;
+}
