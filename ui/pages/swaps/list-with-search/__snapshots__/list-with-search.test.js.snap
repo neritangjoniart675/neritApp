@@ -1,0 +1,6 @@
+<div
+  class="mm-box mm-text-field mm-text-field--size-md mm-text-field--focused mm ..."
+  tabindex="0"
+>
+  <span class="mm-box mm icon mm icon size sm box padding 1 box display inline block box color inherit style mask image url images icons search svg"></span>
+  <input autocomplete=off class=mm box mm text input disabled state styles mm text field__input text body md box margin 0 box margin right 0 box padding 0 box padding right 4 boxes padding left2 box color text default box background color transparent box border style none focused id list with search__text search placeholder enter token name or paste address type search value"></div>
