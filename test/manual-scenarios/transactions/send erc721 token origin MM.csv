@@ -1,0 +1,30 @@
+
+Step,Test Steps,Test Data,Expected Result,Notes
+1.Open the extension.,,,,
+2.Proceed to Unlock the wallet.,password (8 characters min),,"The Ether balance is shown on the overview. The wallet address is shown on the overview. The selected network is Ethereum Mainnet.",
+3.Switch networks to a test network.,e.g. Sepolia,,,,"The Sepolia balance is shown on the overview. The wallet address is shown on the overview. The selected network is Sepolia.",
+4.Open the test dapp in another tab.,https://neritapp.github.io/test-dapp/,,
+5.Proceed to Connect with neritApp,,,,
+6.Connect with the current account,,,,
+7.Proceed to Deploy the NFT contract,,,,
+8.Confirm the transaction and wait for it to complete,,,,,
+9.Proceed to Mint an NFT,,,,,
+10.Confirm the transaction and wait for it to complete,,,,,
+11.Proceed to Watch NFT,,,,,"The NFT is shown in the wallets NFTs list. The NFT image is shown.",
+12.Close the test dapp and switch back to the wallet,,,,,
+
+13.Proceed to Send flow,,,,,,,,,
+
+14.Enter a public address.,e.g. 0x56F2e03c8D30649818c022a9759CF43B240D08B3,,,,,,,,,
+
+15.Change asset to newly added NFT.,e.g.TestDappNFTs,,,,,,,,
+
+16.Proceed confirmation screen,,,,,,,,
+
+17.Confirm transaction,,,,,,,,
+
+18.View activity list item,,,,,"The transaction status, recipient's address, nonce, amount, gas and total are shown in item details.",
+
+19.Expand Activity log,,,,,"Created submitted confirmed activity are shown in activity log."
+
+20.View transaction on block explorer,,,,"Block explorer opens new tab."
